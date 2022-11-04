@@ -1,4 +1,5 @@
- # NMAP -01-
+ 
+ # NMAP -01-
  Bir ana bilgisayardan gelen herhangi bir yanıt, çevrimiçi olduğunun bir göstergesidir. Aşağıda, ele aldığımız Nmap için komut satırı seçeneklerinin hızlı bir özeti bulunmaktadır.
 | Tarama tipi    | Örnek Komut       |
 | ------------------------- | ----------- |
