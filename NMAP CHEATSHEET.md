@@ -2,13 +2,13 @@
  Bir ana bilgisayardan gelen herhangi bir yanıt, çevrimiçi olduğunun bir göstergesidir. Aşağıda, ele aldığımız Nmap için komut satırı seçeneklerinin hızlı bir özeti bulunmaktadır.
 | Tarama tipi    | Örnek Komut       |
 | ------------------------- | ----------- |
-| ARP Taraması      | sudo nmap -PR -sn MACHINE_IP/24 |
-| ICMP Yankı Taraması    | sudo nmap -PE -sn MACHINE_IP/24 |
-| ICMP Zaman Damgası Taraması    |  sudo nmap -PP -sn MACHINE_IP/24   |
-| ICMP Adres Maskesi Taraması  |sudo nmap -PM -sn MACHINE_IP/24     |
-| TCP SYN Ping Taraması       | sudo nmap -PS22,80,443 -sn MACHINE_IP/30     |
-|TCP ACK Ping Taraması      | sudo nmap -PA22,80,443 -sn MACHINE_IP/30     |
-| UDP Ping Taraması      | sudo nmap -PU53,161,162 -sn MACHINE_IP/30|
+| ARP Taraması      | `sudo nmap -PR -sn MACHINE_IP/24` |
+| ICMP Yankı Taraması    | `sudo nmap -PE -sn MACHINE_IP/24` |
+| ICMP Zaman Damgası Taraması    |  `sudo nmap -PP -sn MACHINE_IP/24`  |
+| ICMP Adres Maskesi Taraması  |`sudo nmap -PM -sn MACHINE_IP/24`     |
+| TCP SYN Ping Taraması       | `sudo nmap -PS22,80,443 -sn MACHINE_IP/30`     |
+|TCP ACK Ping Taraması      | `sudo nmap -PA22,80,443 -sn MACHINE_IP/30`     |
+| UDP Ping Taraması      | `sudo nmap -PU53,161,162 -sn MACHINE_IP/30`|
 
 
 `-sn`Bağlantı noktası taraması olmadan yalnızca ana bilgisayar keşfiyle ilgileniyorsanız eklemeyi unutmayın . Atlamak, Nmap'in `-sn`varsayılan olarak canlı ana bilgisayarları bağlantı noktası taramasına izin verecektir.
