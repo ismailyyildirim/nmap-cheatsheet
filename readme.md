@@ -78,7 +78,7 @@ Bu tarama türleri, yanıt için bağlantı noktalarından beklenmeyen şekiller
 |`-dd`    |  hata ayıklama için daha fazla ayrıntı   |
 
 # NMAP -04-
- Son olarak, tarama sonuçlarını ileride incelemek üzere kaydetmek için farklı biçimleri ele aldık. Aşağıdaki tablo, bu odada ele aldığımız en önemli seçenekleri özetlemektedir.
+ Son olarak, tarama sonuçlarını ileride incelemek üzere farklı kaydetme biçimleri. 
 
 | seçenek    | Amaç       |
 | ------------------------- | ----------- |
